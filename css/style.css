@@ -1,0 +1,455 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    background: #998431;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.navigation {
+    min-height: 900px;
+    background: url(../img/bg/bgc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px 150px 0px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.navigation .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation .navigation_address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.navigation .navigation_tel {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.navigation .navigation_catalog {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.navigation .catalog_item {
+    text-align: center;
+    width: 25%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.navigation .line_v {
+    height: 46px;
+    width: 1px;
+    background-color: #FFFFFF;
+}
+
+.navigation .wrapper_btn {
+    margin-top: 584px;
+    text-align: center;
+}
+
+.navigation .navigation_btn1 {
+    height: 50px;
+    width: 203px;
+}
+
+.navigation .navigation_btn2 {
+    height: 50px;
+    width: 182px;
+    margin-left: 30px;
+}
+
+.promo {
+    padding: 100px 0px;
+    background: #282828;
+    min-height: 856px;
+}
+
+.promo .promo_border {
+    width: 1110px;
+    min-height: 656px;
+    border: 3px solid #C4C4C4;
+    padding: 60px 187px;
+}
+
+.promo .promo_title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.promo .promo_line {
+    width: 160px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.promo .description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.promo .promo_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 160px;
+    height: 160px;
+}
+
+.newcollection {
+    min-height: 1038px;
+    padding: 80px 0px;
+    background: #E6E3C4;
+}
+
+.newcollection .newcollection_wrapper {
+    width: 100%;
+    min-height: 878px;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    padding: 60px 0px;
+}
+
+.newcollection .wrapper_img {
+    width: 540px;
+    float: right;
+}
+
+.newcollection .img_wineglass {
+    width: 540px;
+}
+
+.newcollection .img_bottle {
+    width: 255px;
+    margin-top: 30px;
+    float: left;
+}
+
+.newcollection .img_bottle2 {
+    width: 255px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: right;
+}
+
+.newcollection .newcollection_title_small {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.newcollection .newcollection_title_big {
+    margin-top: 30px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.newcollection .newcollection_line {
+    margin-top: 30px;
+    border: 1px solid #282828;
+    width: 160px;
+}
+
+.newcollection .newcollection_description {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    width: 445px;
+}
+
+.newcollection .newcollection_table {
+    margin-top: 30px;
+    width: 445px;
+    height: 228px;
+    border-collapse: collapse;
+}
+
+.newcollection .newcollection_table td {
+    height: 76px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+    text-align: center;
+}
+
+.newcollection .table_cell1 {
+    width: 75px;
+}
+
+.newcollection .table_cell2 {
+    width: 370px;
+    border-left: 1px solid #282828;
+}
+
+.newcollection .table_cell_border {
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.newcollection .table_title_wine {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #282828;
+}
+
+.newcollection .table_description_wine {
+    margin-top: 5px;
+}
+
+.newcollection .newcollection_description2 {
+    width: 445px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.newcollection .newcollection_btn {
+    margin-top: 30px;
+    width: 254px;
+    height: 50px;
+}
+
+.testing {
+    min-height: 767px;
+    background: #282828;
+    padding: 129px 0px 100px 0px;
+}
+
+.testing .testing_wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 538px;
+    border: 3px solid #C4C4C4;
+    padding: 65px 0px 80px 0px;
+}
+
+.testing .testing_img_grape {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: -30px;
+    top: -69px
+}
+
+.testing .testing_img_barrel {
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    right: -53px;
+    top: -65px
+}
+
+.testing .testing_title {
+    position: absolute;
+    left: 310px;
+    width: 490px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    top: -23px;
+    background: #282828;
+}
+
+.testing .testing_line {
+    width: 118px;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+}
+
+.testing .testing_description {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 539px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.testing .testing_form {
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 81px;
+}
+
+.testing .form_name {
+    width: 255px;
+    height: 30px;
+    float: left;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.testing .form_fon {
+    width: 255px;
+    height: 30px;
+    float: right;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.testing .form_address {
+    margin-top: 40px;
+    height: 30px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.testing_form input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.testing .form_submit {
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.footer {
+    min-height: 220px;
+    background: #998431;
+    padding: 50px 0px;
+}
+
+.footer .footer_nav {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    list-style-type: none;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    height: 60px;
+}
+
+.footer .footer_nav li {
+    cursor: pointer;
+}
+
+.footer .footer_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+    height: 60px;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer .footer_line {
+    height: 60px;
+    width: 1px;
+    background-color: #FFFFFF;
+}
+
+.footer .wrapper_img {
+    display: flex;
+    gap: 35px;
+}
+
+.footer .footer_img1 {
+    width: 26px;
+    height: 26px;
+}
+
+.footer .footer_img2 {
+    width: 24px;
+    height: 24px;
+}
+
+.footer .footer_img3 {
+    width: 26px;
+    height: 26px;
+}
+
+
+
